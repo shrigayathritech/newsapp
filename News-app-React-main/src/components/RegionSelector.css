@@ -1,0 +1,87 @@
+/* src/components/NewsByRegion.css */
+.page-container {
+    padding: 20px;
+    background-color: black; /* Dark background for the whole page */
+    color: white; /* Ensure text is readable against dark background */
+  }
+  
+  .page-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff; /* Light color for header text */
+  }
+  
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .news-highlight {
+    width: 300px;
+    margin: 10px;
+    background-color: #222; /* Darker background for news cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .no-image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #444; /* Slightly darker placeholder */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #fff; /* Text color for placeholder */
+    font-size: 1rem; /* Adjust placeholder text size */
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* Larger font size for headlines */
+    color: #ffffff; /* White color for headline text */
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #aaa; /* Light gray for article description */
+    margin-bottom: 10px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    background-color: #0056b3;
+  }
+  

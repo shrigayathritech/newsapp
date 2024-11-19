@@ -1,0 +1,81 @@
+b8172daf50f54433bae59de4c691271d
+
+b3eb7536ce631f8a909a7b672d5b30e8
+
+1.lets start with login/sign up button and logout button .
+2.i think do we need to convert it link in order to move to that page to do routing?
+3.give frontend and backend code with simple login/sigup and logout with mango db
+
+great , now lets focuss on adding news letter feature in header before login/signup,
+i want form to collect user details including to directly mail users real time trending news in email.
+    1.name, 
+    2.mail id
+    3. country 
+    4. area of interest in news categories(politic, entertainment , business, latest news , hotnews , technology, news by region for local news ) 
+user can select multiple news category in form only after login/signup, if user try to fill form ask them to login /sign up by notification msg!
+
+1.refer the previous chats , also ask if u need any code!...we already have authentication for filling newsletter only for login/signup user ,
+2.similarly i want like reaction to be functional (only authenticated user can react), save the liked news separately , by creating a user profile 
+3.user profile should show logged mail id , name(with edit option), saved liked post ,logout
+
+1. login/signup +user profile
+2. reaction + save liked post 
+3. newsletter + email the subscribed news categories + free/ also pricing
+4. image news + video news + content creator + monitization for creator +community discussion
+5. directly share news article to image news within application + other social media 
+5. user profile 
+6. logout
+7. themes
+remember the colour theme of the website black bagroung , buttons blue , text white , border neon green , include yellow if needed
+
+listen carefully i dont have routes code for login/signup(single button) u give code functional with good css , when clicked show signup page , forgot password, login option also
+1. login/signup (focus on frontend later integrate with backend and mongodb)
+login detail in form:
+    1.user mail id 
+    2.password
+signup detail in form:
+    1.user name
+    2.user mail id
+    3.password
+2. user profile 
+    after login/signup show user profile with drop down option 
+        1.edit user name
+        2.show logged in mail id
+        3.saved liked post 
+        4.creator(which later shows page with 3 nav section for photo news, video news, creator option)
+        5. theme change
+        6. logout button
+
+
+2. newsletter :
+    before profile button create link /route for newsletter form (in carousel move option)
+        1. default show free subscription for 1 category news (only 1 option choose from news category)
+        2. multiple news category (monthly/yealy pricing in low price like 500 rs.)
+    newsletter form can include detail like
+        1. user name 
+        2. user mail id 
+        3. news categories option
+     subscribe option(functional only when user login/signup)
+
+
+thats fucking bad , i dont have time with this bullshit, do  it fast undersatnd my queris properly 
+we are not making rocket simple community dpost pag ewith twitter alike posting method 
+1. for newsletter u used carousel partition right use same partion in vertical parts for comminty post and creotor profile 
+if user wants to like/ comment(initially empty ) a post of others ask user to create creotor profile(in the next carousel side)
+use can create cretor profile with user name , nickname, 
+and now they are ready to like/comment and also create their own post
+for creating own post allow user to form deatils of descrip, along with media upload option of any file (handle image visibilty with in the post card display)
+user created post will be visible in community post secction
+user can also edit /delete theier own post in my post section
+
+2.in community post user can like / comments other post or their own post
+3.in edit profile page include details to cretae a creator profile
+    details:
+        username
+        nickname(both can be edited)
+    after cretor profile creation ,****create post option****- for creating forms that allow user to post with description , with media like image, video or anything, mainig image size , video size by suggesting user
+                                    ***my post option to edit delete post of own **
+
+        
+
+

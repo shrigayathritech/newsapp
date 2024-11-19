@@ -1,0 +1,11 @@
+.selectors {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .language-selector, .country-selector {
+    display: inline-block;
+  }
+  

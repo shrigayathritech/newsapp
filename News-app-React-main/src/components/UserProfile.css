@@ -1,0 +1,48 @@
+/* File: UserProfile.css */
+.user-profile {
+  position: relative;
+}
+
+.profile-button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: inherit;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Light Theme */
+.user-profile.light .dropdown-content {
+  background-color: #0f0(206, 221, 71);
+  color: black;
+}
+
+/* Dark Theme */
+.user-profile.dark .dropdown-content {
+  background-color: #111111;
+  color: white;
+}
+
+.dropdown-content button {
+  margin-top: 5px;
+  width: 100%;
+  padding: 5px;
+  background-color: inherit;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #eee;
+}

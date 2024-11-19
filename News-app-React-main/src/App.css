@@ -1,0 +1,170 @@
+/* Overall page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Navbar styling */
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  padding: 1rem;
+}
+
+.nav a {
+  color: #00ff00;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.nav a::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #61dafb;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.nav a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav a:hover {
+  color: #61dafb;
+  transform: scale(1.1);
+}
+
+.nav a:active {
+  color: #61dafb;
+  transform: scale(0.95);
+}
+
+.profile-button {
+  color: #00ff00;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-button:hover {
+  color: #61dafb;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  min-width: 150px;
+}
+
+.dropdown-content a,
+.dropdown-content button {
+  color: #00ff00;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover,
+.dropdown-content button:hover {
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+
+.user-profile {
+  position: relative; /* Important for positioning dropdown */
+}
+
+.profile-button {
+  color: white; /* Change text color to white for better visibility */
+  background: #00ff00; /* Neon green background for the button */
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem; /* Add some padding for better appearance */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #282c34; /* Dark background for dropdown */
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  min-width: 150px;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dropdown-content p {
+  color: white; /* Change email text to white for visibility */
+  margin: 0; /* No margin for the paragraph */
+}
+
+.dropdown-content button {
+  color: white; /* Change button text color to white */
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+  background: none; /* No default button background */
+  border: none; /* No border for button */
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+.dropdown-content button:hover {
+  background-color: #61dafb; /* Light blue background on hover */
+  color: #000; /* Change text color to black for better contrast */
+}
+
+/* File: App.css */
+.light {
+  background-color: rgb(114, 180, 206);
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,23 @@
+.reaction-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.reaction-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.reaction-button.selected {
+  color: red; /* Change color or style for the selected reaction */
+}
+
+.reaction-button:hover {
+  color: #333; /* Change color on hover */
+}

@@ -1,0 +1,100 @@
+.newsletter-form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #1a1a1a; /* Dark background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 255, 255, 0.3); /* Neon glow effect */
+    color: #e0e0e0; /* Light text color for contrast */
+  }
+  
+  .newsletter-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ffcc; /* Neon title color */
+    text-shadow: 0px 0px 5px #00ffcc;
+  }
+  
+  .newsletter-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00ffaa; /* Neon color for labels */
+  }
+  
+  .newsletter-form input[type="text"],
+  .newsletter-form input[type="email"],
+  .newsletter-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #2a2a2a; /* Darker background for input fields */
+    color: #ffffff;
+    border: 1px solid #00ffaa; /* Neon border */
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 5px rgba(0, 255, 170, 0.5); /* Inner neon glow */
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .newsletter-form input[type="text"]:focus,
+  .newsletter-form input[type="email"]:focus,
+  .newsletter-form select:focus {
+    border-color: #00ffcc; /* Border changes on focus */
+  }
+  
+  .subscription-options {
+    margin-top: 15px;
+    color: #e0e0e0;
+  }
+  
+  .subscription-options label {
+    display: block;
+    margin: 8px 0;
+  }
+  
+  .category-selection {
+    margin-top: 15px;
+  }
+  
+  .category-selection h3 {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #00ffaa;
+  }
+  
+  .category-selection label {
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+    color: #e0e0e0;
+  }
+  
+  .category-selection input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #00ffcc; /* Checkbox accent color */
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #00ffaa; /* Neon button background */
+    color: #1a1a1a; /* Dark text for contrast */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 255, 170, 0.5); /* Neon glow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00ffcc;
+    box-shadow: 0px 6px 15px rgba(0, 255, 204, 0.7); /* Brighter glow on hover */
+  }
+  
+  button[type="submit"]:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,86 @@
+.card-slider {
+  overflow: hidden;
+}
+
+/* Style for slick-track to ensure proper alignment */
+.card-slider .slick-track {
+  display: flex;
+}
+
+.card-slider .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styles */
+.card-slider .card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 10px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 300px;
+  border: 2px solid #FFD700; /* Yellow border */
+}
+
+/* Ensure images fill the card */
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  overflow: hidden;
+  background-color: #FFEB3B; /* Light yellow background */
+}
+
+/* Title and description styles */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Custom Arrow Styles */
+.slick-prev, .slick-next {
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background-color: #FFD700;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Customize arrow icon appearance */
+.slick-prev:before, .slick-next:before {
+  font-size: 24px;
+  color: #fff;
+}

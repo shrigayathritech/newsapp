@@ -1,0 +1,10 @@
+/* src/components/IndianLanguageSelector.css */
+.language-selector {
+    margin: 10px 0;
+  }
+  
+  .language-selector select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
